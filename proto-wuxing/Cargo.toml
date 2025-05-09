@@ -1,0 +1,6 @@
+[package]
+name = "proto-wuxing"
+version = "0.1.0"
+edition = "2021"
+description = "Proto-Wuxing"
+license = "MIT"

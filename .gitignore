@@ -1,0 +1,13 @@
+# Rust stuff
+/target
+
+# Nix stuff
+.env
+
+# Used by build.rs
+/git_version
+
+.DS_Store
+
+# IDE stuff
+.idea
