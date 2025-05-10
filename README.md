@@ -1,33 +1,51 @@
 # Polylogic Kit
 
-A Rust library collection for implementing various logical systems and dialectical reasoning patterns.
+A modular Rust library suite for modeling diverse logical and philosophical reasoning systems.
 
-## Current Features
+## About
 
-- **Wuxing (五行)**: Implementation of the Five Elements theory
-  - Generation cycle (相生): Wood → Fire → Earth → Metal → Water → Wood
-  - Control cycle (相克): Wood → Earth → Water → Fire → Metal → Wood
+**Polylogic Kit** is a growing collection of Rust libraries designed to implement and interconnect various logical and dialectical reasoning frameworks. It provides a composable and extensible foundation for developers building applications that require structured reasoning, multi-perspective decision-making, or philosophical model simulation—such as in DAO governance, education, or complex systems design.
 
-## Future Plans
+## Roadmap
 
-The library will be expanded to include other dialectical logic systems beyond the Five Elements theory. Planned additions include:
+Polylogic Kit will continue expanding to include more formal and deconstructive reasoning paradigms. Planned additions include:
 
-- Hegelian dialectics (thesis, antithesis, synthesis)
-- Yin-Yang dynamics
-- Other traditional philosophical frameworks
+- **Hegelian dialectics**: thesis → antithesis → synthesis
+- **Post-structuralist models**: inspired by deconstruction and recursive critique
+- **Other abstract or hybrid logic systems**: to support flexible and programmable discourse protocols
 
-## Usage
+All additions will aim to interoperate with existing modules and follow a shared design philosophy of composable, symbolic reasoning.
 
-```rust
-use wuxing::{Element, WuxingCycle};
+## Repository Structure
 
-// Generation cycle example
-let next = WuxingCycle::generate(Element::Wood); // Returns Element::Fire
+The repository is organized into modular components. Each module focuses on a specific logical or metaphysical framework.
 
-// Control cycle example
-let controls = WuxingCycle::control(Element::Wood); // Returns Element::Earth
-```
+- `proto-wuxing`: Includes core implementations of:
+
+  - The **Five Elements (Wuxing)** system (generation and control cycles)
+  - **Yin-Yang** dualism
+  - The **Ten Heavenly Stems** and **Twelve Earthly Branches** systems
+
+These components provide symbolic primitives and operational logic for building more complex rule-based systems.
+
+## Use Cases
+
+Polylogic Kit is suitable for a wide range of applications, including but not limited to:
+
+- Structuring multi-perspective discussion protocols in DAOs
+- Modeling dynamic symbolic state transitions
+- Designing logic-driven governance, ritual, or simulation frameworks
+- Teaching abstract reasoning through programmable metaphysical systems
+
+## Contributing
+
+We welcome contributions of all kinds—new logic modules, enhancements to existing ones, documentation improvements, or structural discussions. Please feel free to submit a Pull Request or open an Issue.
 
 ## License
 
-MIT
+Unless otherwise stated, all code in this repository is dual-licensed under:
+
+- MIT License (LICENSE-MIT)
+- Apache License, Version 2.0 (LICENSE-APACHE)
+
+You may choose either license according to your needs. All contributions are accepted under these dual-license terms.

@@ -3,16 +3,16 @@ use crate::yin_yang::YinYang;
 
 #[derive(Debug, Clone, Copy, PartialEq)]
 pub enum HeavenlyStem {
-    Jia,  // 甲 (Wood, Yang)
-    Yi,   // 乙 (Wood, Yin)
-    Bing, // 丙 (Fire, Yang)
-    Ding, // 丁 (Fire, Yin)
-    Wu,   // 戊 (Earth, Yang)
-    Ji,   // 己 (Earth, Yin)
-    Geng, // 庚 (Metal, Yang)
-    Xin,  // 辛 (Metal, Yin)
-    Ren,  // 壬 (Water, Yang)
-    Gui,  // 癸 (Water, Yin)
+    Jia,
+    Yi,
+    Bing,
+    Ding,
+    Wu,
+    Ji,
+    Geng,
+    Xin,
+    Ren,
+    Gui,
 }
 
 impl HeavenlyStem {
