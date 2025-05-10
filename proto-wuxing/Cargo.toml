@@ -1,6 +1,7 @@
 [package]
 name = "proto-wuxing"
 version = "0.0.1"
-edition = "2021"
-description = "Proto-Wuxing"
-license = "MIT"
+description = "A Rust-based implementation of the Yin-Yang Five Elements (Wuxing) system."
+
+edition.workspace = true
+license.workspace = true

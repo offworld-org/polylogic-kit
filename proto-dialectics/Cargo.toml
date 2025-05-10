@@ -1,0 +1,7 @@
+[package]
+name = "proto-dialectics"
+version = "0.0.1"
+description = "A protocol for dialectical reasoning and synthesis"
+
+edition.workspace = true
+license.workspace = true

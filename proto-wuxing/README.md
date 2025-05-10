@@ -27,7 +27,7 @@ Add the following to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-proto-wuxing = "0.1.0"
+proto-wuxing = "0.0.1"
 ```
 
 ### Basic Usage
@@ -215,4 +215,9 @@ cargo test
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
+Unless otherwise stated, all code in this repository is dual-licensed under:
+
+- MIT License (LICENSE-MIT)
+- Apache License, Version 2.0 (LICENSE-APACHE)
+
+You may choose either license according to your needs. All contributions are accepted under these dual-license terms.

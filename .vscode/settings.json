@@ -1,13 +1,22 @@
 {
   "cSpell.words": ["Wuxing", "Polylogic"],
   "[rust]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true
   },
   "rust-analyzer.rustfmt.extraArgs": [
     "--edition=2021",
     "--max-width=100",
     "--tab-spaces=4",
     "--newline-style=unix"
-  ]
+  ],
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml",
+    "editor.formatOnSave": true
+  },
+
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
 }
