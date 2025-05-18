@@ -1,5 +1,5 @@
 [workspace]
-members = ["proto-dialectics", "proto-wuxing"]
+members = ["proto-wuxing", "proto-dialectics", "proto-deconstruct"]
 
 [workspace.package]
 edition = "2021"

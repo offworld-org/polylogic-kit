@@ -3,6 +3,10 @@
 version = 3
 
 [[package]]
+name = "proto-deconstruct"
+version = "0.0.1"
+
+[[package]]
 name = "proto-dialectics"
 version = "0.0.1"
 
