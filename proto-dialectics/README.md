@@ -82,6 +82,13 @@ if cycle.is_complete() {
 - Ensures valid relationships between components
 - Provides methods for cycle completion and progression
 
+## References
+
+To better understand the philosophical foundations of each logic module, consider the following references:
+
+- [Dialectic – Method of argument and reasoning](https://en.wikipedia.org/wiki/Dialectic)
+- [Hegelian Dialectic – Thesis, antithesis, synthesis](https://en.wikipedia.org/wiki/Dialectic#Hegelian_dialectic)
+
 ## License
 
 Unless otherwise stated, all code in this repository is dual-licensed under:

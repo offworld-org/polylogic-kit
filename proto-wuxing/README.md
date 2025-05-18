@@ -213,6 +213,14 @@ To run tests:
 cargo test
 ```
 
+## References
+
+To better understand the philosophical foundations of each logic module, consider the following references:
+
+- [Onmyōdō – Japanese syncretic cosmology](https://en.wikipedia.org/wiki/Onmyōdō)
+- [Yin and Yang – Dualistic cosmology in Chinese philosophy](https://en.wikipedia.org/wiki/Yin_and_yang)
+- [Wu Xing – Five Phases in Chinese metaphysics](https://en.wikipedia.org/wiki/Wuxing_%28Chinese_philosophy%29)
+
 ## License
 
 Unless otherwise stated, all code in this repository is dual-licensed under:

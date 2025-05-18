@@ -1,0 +1,7 @@
+[package]
+name = "proto-deconstruct"
+version = "0.0.1"
+description = "A protocol for deconstruct reasoning and synthesis"
+
+edition.workspace = true
+license.workspace = true

@@ -1,8 +1,8 @@
 {
-  "cSpell.words": ["Wuxing", "Polylogic"],
+  "cSpell.words": ["Wuxing", "Polylogic", "Onmyōdō"],
+  "editor.formatOnSave": true,
   "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer",
-    "editor.formatOnSave": true
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
   "rust-analyzer.rustfmt.extraArgs": [
     "--edition=2021",
@@ -11,12 +11,9 @@
     "--newline-style=unix"
   ],
   "[toml]": {
-    "editor.defaultFormatter": "tamasfe.even-better-toml",
-    "editor.formatOnSave": true
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
-
   "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
