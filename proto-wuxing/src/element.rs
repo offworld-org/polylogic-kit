@@ -55,7 +55,7 @@ impl WuxingElement {
     pub fn new(element: Element) -> Self {
         Self {
             element,
-            yin_yang: None,
+            yin_yang: Some(element.default_yin_yang()),
             earthly_branch: None,
             heavenly_stem: None,
         }
